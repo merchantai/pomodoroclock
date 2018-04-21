@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<div class="container card ">
+  <div class="row">
+    <div class="col-sm-12"><h1 class="text-center">POMODORO CLOCK</h1></div>
+  </div>
+<div class="row"> 
+  <div class="col-sm-1"><button class="btn sec add-sub" id="addbr">+</button></div>
+  <div class="col-sm-2 text-center sec" id="break"data-val="10"><p>10</p></div>
+  <div class="col-sm-1"><button class="btn sec add-sub" id="subbr">-</button></div>
+  <div class="col-sm-1 offset-sm-4"><button class="btn sec add-sub" id="addtime">+</button></div>
+  <div class="col-sm-2 text-center sec" id="time"data-val="25"><p>25</p></div>
+  <div class="col-sm-1" id="subtime"><button class="btn sec add-sub">-</button></div>
+</div>
+  <div class="row">
+    <div class="col-sm-5 text-center sec">Break time</div>
+    <div class="col-sm-4 offset-sm-3 text-center sec">Pomodoro Time</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 text-center card" id="session">25:00</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2 text-center controls"><button class="btn btn-success">start</button></div>
+    <div class="col-sm-2  text-center  offset-sm-8 controls"><button class="btn btn-danger">Stop</button></div>
+    
+  </div>
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
